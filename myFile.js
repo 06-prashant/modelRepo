@@ -1,6 +1,6 @@
 i=9
-i++
+var c=i++
 
 
 console.log("It begins", i+i);
-document.getElementById("p1").innerHTML=i+i;
+document.getElementById("p1").innerHTML=c+c;
