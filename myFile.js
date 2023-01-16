@@ -3,4 +3,4 @@ i++
 
 
 console.log("It begins", i+i);
-document.getElementsByTagName("p").innerHTML=i+i;
+document.getElementById("p1").innerHTML=i+i;
