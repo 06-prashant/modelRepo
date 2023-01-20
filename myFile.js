@@ -17,7 +17,6 @@ const fs=require('fs');
 // })
 
 
-// const c= fs.readFileSync('file.txt')
-// console.log(c.toString());
-
-const c= fs.writeFileSync('file.txt', "AbaJabaJhaba")
+const d= fs.readFileSync('file.txt')
+console.log(d.toString());
+document.getElementById("p1").innerHTML=d.toString();
